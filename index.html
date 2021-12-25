@@ -1,25 +1,104 @@
 <!DOCTYPE html>
 <html>
 	<head>
-		<link type="text/css" href="styles.css" media="screen" rel="Stylesheet" />
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 		<title>Immersive RPG</title>
+
 	</head>
+
 	<body>
+		<style>
+			*, *::before, *::after {
+				box-sizing: border-box;
+			}
+
+			* {
+				font-family: Helvetica, Arial, sans-serif;
+			}
+
+			a {
+				font-size: 4rem;
+			}
+
+			a:link {
+				color: yellow;
+			}
+
+			a:visited {
+				color: yellow;
+			}
+
+			a:focus {
+				color: orange;
+			}
+
+			a:hover {
+				color: orange;
+			}
+
+			a:active {
+				color: red;
+			}
+
+			html {
+				box-sizing: border-box;
+				min-height: 100%;
+				height: 100%;
+				color: white;
+				background-color: black;
+			}
+
+			body {
+				box-sizing: border-box;
+				margin: 50px;
+				padding: 0;
+				overflow: hidden;
+				min-height: 100%;
+			}
+
+			segment {
+				//background: #d9d7d5;
+				display: flex;
+				flex-wrap: wrap;
+				justify-content: space-between;
+			}
+
+			h1 {
+				text-align: center;
+				margin-bottom: 3.0rem;
+				font-size: 5rem;
+			}
+			
+			div {
+				text-align: center;
+				//background: #767775;
+				flex-basis: 100%;
+				height: 100px;
+				margin-bottom: 0.5rem;
+			}
+
+			@media (min-width: 600px) {
+				segment {
+					flex-wrap: nowrap;
+				}
+
+				div {
+					flex-basis: 50%;
+				}
+			}
+		</style>
 		<h1>Let's make an Immersive RPG in Godot</h1>
-		<p>
-			<a href="https://github.com/ImmersiveRPG">Github</a>
-			&nbsp;&nbsp;&nbsp;
-			<a href="https://reddit.com/u/ImmersiveRPG">Reddit</a>
-		</p>
-		<p>
-			<a href="https://twitter.com/ImmersiveRPG">Twitter</a>
-			&nbsp;&nbsp;&nbsp;
-			<a href="https://minds.com/ImmersiveRPG">Minds</a>
-		</p>
-		<p>
-			<a href="https://www.youtube.com/channel/UCfRXKGrGO9h6O0lAsSjbsCw">Youtube</a>
-			&nbsp;&nbsp;&nbsp;
-			<a href="https://bitchute.com/ImmersiveRPG">BitChute</a>
-		</p>
+		<segment>
+			<div><a href="https://github.com/ImmersiveRPG">Github</a></div>
+			<div><a href="https://reddit.com/u/ImmersiveRPG">Reddit</a></div>
+		</segment>
+		<segment>
+			<div><a href="https://twitter.com/ImmersiveRPG">Twitter</a></div>
+			<div><a href="https://minds.com/ImmersiveRPG">Minds</a></div>
+		</segment>
+		<segment>
+			<div><a href="https://www.youtube.com/channel/UCfRXKGrGO9h6O0lAsSjbsCw">Youtube</a></div>
+			<div><a href="https://bitchute.com/ImmersiveRPG">BitChute</a></div>
+		</segment>
 	</body>
 </html>
