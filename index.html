@@ -5,7 +5,6 @@
 		<title>Immersive RPG</title>
 
 	</head>
-
 	<body>
 		<style>
 			*, *::before, *::after {
@@ -55,47 +54,98 @@
 				min-height: 100%;
 			}
 
-			segment {
-				//background: #d9d7d5;
-				display: flex;
-				flex-wrap: wrap;
-				justify-content: space-between;
-			}
-
 			h1 {
 				text-align: center;
 				margin-bottom: 3.0rem;
 				font-size: 5rem;
 			}
 
-			div {
-				text-align: center;
+			.links {
+				//background: #d9d7d5;
+				display: flex;
+				flex-wrap: wrap;
+				justify-content: space-between;
+			}
+
+			.links div {
 				//background: #767775;
+				text-align: center;
 				flex-basis: 100%;
 				height: 100px;
 				margin-bottom: 0.5rem;
 			}
 
+			.video div {
+				text-align: center;
+				width: 100%;
+				height: 100%;
+			}
+
+			.video {
+				width: 100%;
+				height: 100%;
+			}
+
+			@media (min-width: 526px) {
+				.video div iframe {
+					width: 426px;
+					height: 240px;
+				}
+			}
+
+			@media (min-width: 740px) {
+				.video div iframe {
+					width: 640px;
+					height: 360px;
+				}
+			}
+
+			@media (min-width: 954px) {
+				.video div iframe {
+					width: 854px;
+					height: 480px;
+				}
+			}
+
+			@media (min-width: 1380px) {
+				.video div iframe {
+					width: 1280px;
+					height: 720px;
+				}
+			}
+
+			@media (min-width: 2020px) {
+				.video div iframe {
+					width: 1920px;
+					height: 1080px;
+				}
+			}
+
 			@media (min-width: 600px) {
-				segment {
+				.links {
 					flex-wrap: nowrap;
 				}
 
-				div {
+				.links div {
 					flex-basis: 50%;
 				}
 			}
 		</style>
 		<h1>Let's make an Immersive RPG in Godot</h1>
-		<segment>
+		<segment class="video">
+			<div>
+				<iframe src="https://www.youtube.com/embed/?list=PLlnj-W0EhsbtCTalstIUDmV2ZKgFbNkth" frameborder="0" allowfullscreen></iframe>
+			</div>
+		</segment>
+		<segment class="links">
 			<div><a href="https://github.com/ImmersiveRPG">Github</a></div>
 			<div><a href="https://reddit.com/u/ImmersiveRPG">Reddit</a></div>
 		</segment>
-		<segment>
+		<segment class="links">
 			<div><a href="https://twitter.com/ImmersiveRPG">Twitter</a></div>
 			<div><a href="https://minds.com/ImmersiveRPG">Minds</a></div>
 		</segment>
-		<segment>
+		<segment class="links">
 			<div><a href="https://www.youtube.com/channel/UCfRXKGrGO9h6O0lAsSjbsCw">Youtube</a></div>
 			<div><a href="https://bitchute.com/ImmersiveRPG">BitChute</a></div>
 		</segment>
