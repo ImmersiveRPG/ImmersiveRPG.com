@@ -121,6 +121,15 @@ $ids = setup();
 				margin-bottom: 0.5rem;
 			}
 
+			footer {
+				text-align: center;
+				font-size: 1rem;
+			}
+
+			footer a {
+				font-size: 1rem;
+			}
+
 			.video div {
 				text-align: center;
 				width: 100%;
@@ -204,5 +213,11 @@ $ids = setup();
 			<div><a href="https://rumble.com/user/ImmersiveRPG">Rumble</a></div>
 			<div></div>
 		</segment>
+
+		<footer>
+			<p>&copy; 2022 Matthew Brennan Jones</p>
+			<p>Licensed under the MIT License</p>
+			<p>Source code: <a href="https://github.com/ImmersiveRPG/ImmersiveRPG.com">https://github.com/ImmersiveRPG/ImmersiveRPG.com</a></p>
+		</footer>
 	</body>
 </html>
