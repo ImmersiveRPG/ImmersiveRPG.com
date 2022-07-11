@@ -186,7 +186,9 @@ $ids = setup();
 				}
 			}
 		</style>
-		<h1>Let's make an Immersive RPG in Godot</h1>
+		<header>
+			<h1>Let's make an Immersive RPG in Godot</h1>
+		</header>
 
 		<segment class="video">
 			<div>
