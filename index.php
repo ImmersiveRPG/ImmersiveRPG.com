@@ -176,7 +176,7 @@ $ids = setup();
 				}
 			}
 
-			@media (min-width: 600px) {
+			@media (min-width: 900px) {
 				.links {
 					flex-wrap: nowrap;
 				}
@@ -200,22 +200,21 @@ $ids = setup();
 			</div>
 		</segment>
 		<segment class="links">
+			<div><a href="https://godotengine.org/asset-library/asset?user=ImmersiveRPG">Plugins</a></div>
 			<div><a href="https://github.com/ImmersiveRPG">Github</a></div>
 			<div><a href="https://www.patreon.com/ImmersiveRPG">Patreon</a></div>
-			<div><a href="https://godotengine.org/asset-library/asset?user=ImmersiveRPG">Godot Plugins</a></div>
 		</segment>
 		<segment class="links">
 			<div><a href="https://www.youtube.com/channel/UCfRXKGrGO9h6O0lAsSjbsCw">Youtube</a></div>
-			<div><a href="https://reddit.com/u/ImmersiveRPG">Reddit</a></div>
+			<div><a href="https://bitchute.com/ImmersiveRPG">BitChute</a></div>
+			<div><a href="https://rumble.com/user/ImmersiveRPG">Rumble</a></div>
 		</segment>
 		<segment class="links">
 			<div><a href="https://twitter.com/ImmersiveRPG">Twitter</a></div>
 			<div><a href="https://minds.com/ImmersiveRPG">Minds</a></div>
+            <div><a href="https://reddit.com/u/ImmersiveRPG">Reddit</a></div>
 		</segment>
 		<segment class="links">
-			<div><a href="https://bitchute.com/ImmersiveRPG">BitChute</a></div>
-			<div><a href="https://rumble.com/user/ImmersiveRPG">Rumble</a></div>
-		</segment>
 
 		<footer>
 			<p>Copyright &copy; 2022 Matthew Brennan Jones</p>
