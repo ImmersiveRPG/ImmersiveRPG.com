@@ -202,6 +202,7 @@ $ids = setup();
 		<segment class="links">
 			<div><a href="https://github.com/ImmersiveRPG">Github</a></div>
 			<div><a href="https://www.patreon.com/ImmersiveRPG">Patreon</a></div>
+			<div><a href="https://godotengine.org/asset-library/asset?user=ImmersiveRPG">Godot Plugins</a></div>
 		</segment>
 		<segment class="links">
 			<div><a href="https://www.youtube.com/channel/UCfRXKGrGO9h6O0lAsSjbsCw">Youtube</a></div>
