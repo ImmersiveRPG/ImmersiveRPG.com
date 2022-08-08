@@ -214,7 +214,6 @@ $ids = setup();
 			<div><a href="https://minds.com/ImmersiveRPG">Minds</a></div>
             <div><a href="https://reddit.com/u/ImmersiveRPG">Reddit</a></div>
 		</segment>
-		<segment class="links">
 
 		<footer>
 			<p>Copyright &copy; 2022 Matthew Brennan Jones</p>
