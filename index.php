@@ -208,6 +208,7 @@ $ids = setup();
 			<div><a href="https://www.youtube.com/channel/UCfRXKGrGO9h6O0lAsSjbsCw">Youtube</a></div>
 			<div><a href="https://bitchute.com/ImmersiveRPG">BitChute</a></div>
 			<div><a href="https://rumble.com/user/ImmersiveRPG">Rumble</a></div>
+			<div><a href="https://odysee.com/@ImmersiveRPG">Odysee</a></div>
 		</segment>
 		<segment class="links">
 			<div><a href="https://twitter.com/ImmersiveRPG">Twitter</a></div>
