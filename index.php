@@ -213,7 +213,7 @@ $ids = setup();
 		<segment class="links">
 			<div><a href="https://twitter.com/ImmersiveRPG">Twitter</a></div>
 			<div><a href="https://minds.com/ImmersiveRPG">Minds</a></div>
-            <div><a href="https://reddit.com/u/ImmersiveRPG">Reddit</a></div>
+			<div><a href="https://reddit.com/u/ImmersiveRPG">Reddit</a></div>
 		</segment>
 
 		<footer>
