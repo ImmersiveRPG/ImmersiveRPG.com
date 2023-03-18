@@ -217,7 +217,7 @@ $ids = setup();
 		</segment>
 
 		<footer>
-			<p>Copyright &copy; 2022 Matthew Brennan Jones</p>
+			<p>Copyright &copy; 2023 Matthew Brennan Jones</p>
 			<p>Licensed under the MIT License</p>
 			<p>Source code: <a href="https://github.com/ImmersiveRPG/ImmersiveRPG.com">https://github.com/ImmersiveRPG/ImmersiveRPG.com</a></p>
 		</footer>
